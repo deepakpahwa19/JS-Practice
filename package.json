@@ -1,0 +1,29 @@
+{
+  "name": "nodejspractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "rxjs": "^6.4.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "yargs": "^13.2.1",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

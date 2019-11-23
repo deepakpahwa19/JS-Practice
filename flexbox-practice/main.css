@@ -1,0 +1,51 @@
+body {
+    position: relative;
+}
+
+.container-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1100px;;
+    overflow-y: auto;
+    position: sticky;
+}
+
+.container-1 div {
+    border: 1px solid grey;
+    padding: 3%;
+}
+
+.box-1{
+    flex: 1;
+    align-content: center;
+    /* order: 2; */
+}
+
+.box-2{
+    flex: 3;
+    margin-left: 5px;
+    
+    /* order: 1; */
+}
+
+.box-3{
+    flex: 1;
+    /* order: 3; */
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-2 div {
+    border: 1px solid grey;
+}
+
+.box {
+    flex-basis: 30%;
+    /* align-items: flex-start; */
+}
